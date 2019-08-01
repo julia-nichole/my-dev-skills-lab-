@@ -1,0 +1,72 @@
+* {
+    box-sizing: border-box;
+  }
+  
+  body {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-color: white;
+    height: 100vh;
+  }
+
+  tbody { 
+
+      margin-right: 15px;
+     width: 200px;
+
+  }
+
+  input {
+      border-color: rgb(148, 195, 128);
+      border-width: 2px;
+      width: 50%;
+      height: 30px;
+  }
+
+  td {
+      color: rgb(253, 159, 52)
+  }
+
+  li {
+      color: green;
+  }
+
+  #container {
+      display: flex;
+      flex-direction: column;
+  }
+  div{
+      display:flex;
+      flex-direction:column;
+  }
+
+  #header {
+      background-color: rgb(148, 195, 128);
+      color: white;
+      width: 250px;
+      text-align: center;
+      height: 25px;
+  }
+
+  #addItem {
+
+      width:50%;
+      border-color: rgb(148, 195, 128);
+      border-width: 2px;
+      padding:6px 60px;
+      height:30px;
+  }
+
+  .del {
+      background-color: rgb(222, 102, 105);
+      height: 20px;
+  }
+  .title{
+    background-color: #92C47D;
+    color: white;
+    height: 30px;
+    padding: 6px 60px ;
+    font-weight: 500;
+  }
